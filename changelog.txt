@@ -1,0 +1,17 @@
+2.0
+
+First version as modification
+
+2.0.1
+
+Fix for Mac-related lua error http://forums.wesnoth.org/viewtopic.php?f=15&t=39116&p=579957#p579947
+
+2.1.0
+
+HP : min cost 4 , max cost 12, step 1
+MP : min cost 8, max cost 16, step 1
+Damage : min cost 12, max cost 28, step 2
+Attack : min cost 40, max cost 56, step 2
+
+
+Todo: remove Rav_XP_hp_amount if not needed
