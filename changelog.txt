@@ -13,7 +13,13 @@ MP : min cost 8, max cost 16, step 1
 Damage : min cost 12, max cost 28, step 2
 Attack : min cost 40, max cost 56, step 2
 
-2.1.1
+2.1.0a
 
-Removed Rav_XP_hp_amount and similar if not needed
-Updated addon server description
+Added type=mp/sp/hybrid  to allow use in single player
+Removed #ifdef MULTIPLAYER
+Added workaround for bug #23512
+
+2.2.0
+
+Lua implementation by gfgtdf
+Better description for addon and modification
