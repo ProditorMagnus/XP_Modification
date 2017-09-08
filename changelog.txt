@@ -23,3 +23,7 @@ Added workaround for bug #23512
 
 Lua implementation by gfgtdf
 Better description for addon and modification
+
+2.3.0
+
+Added drain penalty customization
