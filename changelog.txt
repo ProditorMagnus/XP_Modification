@@ -26,4 +26,4 @@ Better description for addon and modification
 
 2.3.0
 
-Added drain penalty customization
+Added drain penalty customization by vn971
