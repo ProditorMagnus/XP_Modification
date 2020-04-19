@@ -27,3 +27,7 @@ Better description for addon and modification
 2.3.0
 
 Added drain penalty customization by vn971
+
+2.3.1
+
+HP : default cost from 6 to 8
