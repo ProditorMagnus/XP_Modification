@@ -31,3 +31,7 @@ Added drain penalty customization by vn971
 2.3.1
 
 HP : default cost from 6 to 8
+
+2.4.0
+
+New option to only allow upgrades to units that do not have regular advancements
