@@ -38,5 +38,6 @@ New option to only allow upgrades to units that do not have regular advancements
 
 2.4.1
 
-Update deprecated code
+Update some deprecated code
 Drain filter now considers all drains-type specials
+Include experimental power upgrade option in separate [modification]
