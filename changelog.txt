@@ -41,3 +41,7 @@ New option to only allow upgrades to units that do not have regular advancements
 Update some deprecated code
 Drain filter now considers all drains-type specials
 Include experimental power upgrade option in separate [modification]
+
+2.4.2
+
+When base damage or strike is 1, then upgrade is allowed to reduce the other value by 25% to achieve more evenly distributed damage and strikes.
