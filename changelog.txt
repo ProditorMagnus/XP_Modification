@@ -45,3 +45,10 @@ Include experimental power upgrade option in separate [modification]
 2.4.2
 
 When base damage or strike is 1, then upgrade is allowed to reduce the other value by 25% to achieve more evenly distributed damage and strikes.
+
+2.4.3
+
+Group attacks by name+type+range
+Sort attacks in log message
+
+
