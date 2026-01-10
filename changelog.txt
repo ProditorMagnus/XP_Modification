@@ -51,4 +51,12 @@ When base damage or strike is 1, then upgrade is allowed to reduce the other val
 Group attacks by name+type+range
 Sort attacks in log message
 
+2.4.4
+
+For attacks with drain, upgrade gives less effect per upgrade, maybe 7%
+
+2.4.5
+
+Format damage and strike numbers to only add + in case of positive numbers
+
 
