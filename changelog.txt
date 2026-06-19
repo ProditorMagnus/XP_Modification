@@ -51,4 +51,7 @@ When base damage or strike is 1, then upgrade is allowed to reduce the other val
 Group attacks by name+type+range
 Sort attacks in log message
 
+2.4.4
+
+Spanish translation by Sebas38760
 
