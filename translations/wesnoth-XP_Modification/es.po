@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-XP_Modification\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2025-12-29 19:54\n"
-"PO-Revision-Date: 2025-12-29 19:59-0300\n"
+"POT-Creation-Date: 2026-06-17 21:26\n"
+"PO-Revision-Date: 2026-06-17 21:45-0300\n"
 "Last-Translator: Sebastián Lecchini <sebas38760@gmail.com>\n"
 "Language-Team: es\n"
 "Language: es\n"
@@ -12,42 +12,42 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. [set_menu_item], id=xp_mod_a
-#: XP_Modification/macros/xp.cfg:50
+#: XP_Modification/macros/xp.cfg:45
 msgid "+$Rav_XP_hp_amount hp: $Rav_XP_hp_cost xp"
 msgstr "+$Rav_XP_hp_amount PV: $Rav_XP_hp_cost PX"
 
 #. [set_menu_item], id=xp_mod_b
-#: XP_Modification/macros/xp.cfg:55
+#: XP_Modification/macros/xp.cfg:50
 msgid "+$Rav_XP_hp_amount hp: $Rav_XP_hp_cost_drainer xp"
 msgstr "+$Rav_XP_hp_amount PV: $Rav_XP_hp_cost_drainer PX"
 
 #. [set_menu_item], id=xp_mod_c
-#: XP_Modification/macros/xp.cfg:60
+#: XP_Modification/macros/xp.cfg:55
 msgid "+$Rav_XP_move_amount movement: $Rav_XP_move_cost xp"
 msgstr "+$Rav_XP_move_amount movimiento: $Rav_XP_move_cost PX"
 
 #. [set_menu_item], id=xp_mod_d
-#: XP_Modification/macros/xp.cfg:65
+#: XP_Modification/macros/xp.cfg:60
 msgid "+$Rav_XP_move_amount movement: $Rav_XP_move_cost_drainer xp"
 msgstr "+$Rav_XP_move_amount movimiento: $Rav_XP_move_cost_drainer PX"
 
 #. [set_menu_item], id=xp_mod_e
-#: XP_Modification/macros/xp.cfg:70
+#: XP_Modification/macros/xp.cfg:65
 msgid "+$Rav_XP_damage_amount damage: $Rav_XP_damage_cost xp"
 msgstr "+$Rav_XP_damage_amount daño: $Rav_XP_damage_cost PX"
 
 #. [set_menu_item], id=xp_mod_f
-#: XP_Modification/macros/xp.cfg:75
+#: XP_Modification/macros/xp.cfg:70
 msgid "+$Rav_XP_damage_amount damage: $Rav_XP_damage_cost_drainer xp"
 msgstr "+$Rav_XP_damage_amount daño: $Rav_XP_damage_cost_drainer PX"
 
 #. [set_menu_item], id=xp_mod_g
-#: XP_Modification/macros/xp.cfg:80
+#: XP_Modification/macros/xp.cfg:75
 msgid "+$Rav_XP_strike_amount strike: $Rav_XP_strike_cost xp"
 msgstr "+$Rav_XP_strike_amount ataque: $Rav_XP_strike_cost PX"
 
 #. [set_menu_item], id=xp_mod_h
-#: XP_Modification/macros/xp.cfg:85
+#: XP_Modification/macros/xp.cfg:80
 msgid "+$Rav_XP_strike_amount strike: $Rav_XP_strike_cost_drainer xp"
 msgstr "+$Rav_XP_strike_amount ataque: $Rav_XP_strike_cost_drainer PX"
 
@@ -179,20 +179,40 @@ msgstr "Penalización de drenadores %"
 msgid "XP cost penalty for drainers, in percent"
 msgstr "Penalización de coste de PX para drenadores, en porcentaje"
 
+#. TRANSLATORS: Used to display a unit as "<unit name> the <unit type>". Example: "Tabryn the Marshal".
 #. [lua]
-#: XP_Modification/mods/xp_mod.cfg:113
+#. [4]
+#: XP_Modification/mods/xp_mod.cfg:112 XP_Modification/mods/xp_mod_beta.cfg:211
 msgid "%s the %s"
 msgstr "%s el %s"
 
 #. [lua]
-#: XP_Modification/mods/xp_mod.cfg:114
+#: XP_Modification/mods/xp_mod.cfg:113
 msgid "I spent %s xp for %s!"
 msgstr "¡Gasté %s PX por %s!"
 
 #. [chat]
-#: XP_Modification/mods/xp_mod.cfg:138
+#: XP_Modification/mods/xp_mod.cfg:137
 msgid "XP Modification"
 msgstr "XP Mod"
+
+#. [chat]
+#: XP_Modification/mods/xp_mod.cfg:138
+msgid ""
+"WARNING\n"
+"\n"
+"Settings not found. Expected cause is bug #23512. Fix is enabling Advanced "
+"Settings->Level options in campaign menu.\n"
+"\n"
+"Default settings assumed."
+msgstr ""
+"ADVERTENCIA\n"
+"\n"
+"No se encontraron los ajustes. La causa probable es el error #23512. La "
+"solución es habilitar Ajustes avanzados->Opciones de nivel en el menú de la "
+"campaña.\n"
+"\n"
+"Se asumirán los ajustes predeterminados."
 
 #. [lua]
 #: XP_Modification/mods/xp_mod.cfg:217
@@ -225,7 +245,7 @@ msgid "AMLA only: no"
 msgstr "Solo tras máximo nivel: no"
 
 #. [lua]
-#: XP_Modification/mods/xp_mod.cfg:230 XP_Modification/mods/xp_mod_beta.cfg:241
+#: XP_Modification/mods/xp_mod.cfg:229 XP_Modification/mods/xp_mod_beta.cfg:252
 msgid "XP Mod version "
 msgstr "XP Mod versión "
 
@@ -239,38 +259,40 @@ msgstr "XP Mod (Beta)"
 msgid ""
 "Experiment where damage and strike upgrades are automatically distributed "
 "and upgrade amount is 10% of base value instead of constant. Distribution "
-"aims to reach 3.5 damage per strike. May be enabled together with regular XP "
-"Mod, but disable strike and damage upgrades there then or amounts can be "
-"unexpected. Drain and amla-only logic is not implemented yet.\n"
+"aims to stay close to original damage per strike, but staying between 2 and "
+"5 damage per strike. May be enabled together with regular XP Mod, but "
+"disable strike and damage upgrades there then or amounts can be unexpected. "
+"Drain and amla-only logic is not fully implemented yet.\n"
 "\n"
 "When base damage or strike is 1, then upgrade is allowed to reduce the other "
 "value by 25% to achieve more evenly distributed damage and strikes.\n"
 "\n"
-"When unit has multiple attacks with same name, upgrade takes lowest values "
-"from all of them. So 40-1 and 4-10 with same name are 4-1 for upgrade "
-"purpose.\n"
+"When unit has multiple attacks with same name+type+range, upgrade takes "
+"lowest values from all of them. So 40-1 and 4-10 with same name are 4-1 for "
+"upgrade purpose.\n"
 "\n"
 "Attacks that are not from unit type might get upgraded, but not tested.\n"
 "\n"
 "version "
 msgstr ""
-"Experimento donde las mejoras de daño y ataques se distribuyen "
+"Experimento donde las mejoras de daño y golpes se distribuyen "
 "automáticamente y la cantidad de mejora es el 10% del valor base en lugar de "
-"constante. La distribución busca alcanzar 3.5 de daño por ataque. Puede "
-"activarse junto con el XP Mod normal, pero entonces desactiva las mejoras de "
-"ataques y daño allí o los valores pueden ser inesperados. La lógica de "
-"drenaje y solo tras máximo nivel aún no está implementada.\n"
+"ser constante. La distribución intenta mantenerse cerca del daño original "
+"por golpe, pero dentro de un rango de entre 2 y 5 de daño por golpe. Puede "
+"activarse junto con el XP Mod normal, pero entonces desactiva allí las "
+"mejoras de golpes y daño o los valores podrían resultar inesperados. La "
+"lógica de drenaje y de solo AMLA aún no está implementada por completo.\n"
 "\n"
-"Cuando el daño o los ataques base son 1, la mejora permite reducir el otro "
-"valor en un 25% para lograr una distribución más equilibrada de daño y "
-"ataques.\n"
+"Cuando el daño base o la cantidad de golpes es 1, la mejora puede reducir el "
+"otro valor en un 25% para lograr una distribución más equilibrada entre daño "
+"y golpes.\n"
 "\n"
-"Cuando una unidad tiene varios ataques con el mismo nombre, la mejora toma "
-"los valores más bajos de todos ellos. Así, 40-1 y 4-10 con el mismo nombre "
-"se consideran 4-1 para fines de mejora.\n"
+"Cuando una unidad tiene varios ataques con el mismo nombre+tipo+alcance, la "
+"mejora toma los valores más bajos de todos ellos. Así, 40-1 y 4-10 con el "
+"mismo nombre se consideran 4-1 para fines de mejora.\n"
 "\n"
 "Los ataques que no provienen del tipo de unidad podrían mejorarse, pero no "
-"se ha probado.\n"
+"han sido probados.\n"
 "\n"
 "versión "
 
@@ -284,13 +306,23 @@ msgstr " por Ravana"
 msgid "XP required to upgrade total power"
 msgstr "PX requeridos para mejorar el poder total"
 
+#. [4]
+#: XP_Modification/mods/xp_mod_beta.cfg:204
+msgid "Power modifer: +"
+msgstr "Modificador de poder: +"
+
+#. [4]
+#: XP_Modification/mods/xp_mod_beta.cfg:212
+msgid "I spent %s xp and now have %s!"
+msgstr "¡Gasté %s PX y ahora tengo %s!"
+
 #. [set_menu_item], id=xp_mod_exp_power
-#: XP_Modification/mods/xp_mod_beta.cfg:219
+#: XP_Modification/mods/xp_mod_beta.cfg:230
 msgid "+$Rav_XP_damage_percent|% base damage: $Rav_XP_damage_cost_beta xp"
 msgstr "+$Rav_XP_damage_percent|% daño base: $Rav_XP_damage_cost_beta PX"
 
 #. [lua]
-#: XP_Modification/mods/xp_mod_beta.cfg:238
+#: XP_Modification/mods/xp_mod_beta.cfg:250
 msgid "Power cost: "
 msgstr "Costo de energía: "
 
