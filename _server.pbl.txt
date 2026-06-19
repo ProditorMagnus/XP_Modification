@@ -1,0 +1,30 @@
+title="XP Modification"
+type="mod_mp"
+icon="icons/ring_gold.png~L(icons/potion_green_medium.png~CS(40,0,0))~BLIT(projectiles/fire-burst-small-3.png~CROP(1,1,50,45)~O(0.35),0,5)~BLIT(projectiles/whitemissile-impact-2.png~O(0.4)~CROP(20,10,60,60),0,0)~BLIT(misc/font8x8.png~CS(-255,0,-255)~GS()~CS(35,35,-255)~CROP(55,41,8,8),4,4)~BLIT(misc/font8x8.png~CS(-255,0,-255)~GS()~CS(35,35,-255)~CROP(71,32,8,8),11,4)"
+version=""
+author="Ravana"
+passphrase=""
+email=""
+description="This addon provides rightclick menu that allows you to spend unit experience for upgrades. Costs can be changed during game creation, and by default are:
+* 8 xp for 4 health
+* 10 xp for 1 movement (for the next turn and all subsequent)
+* 16 xp for 1 additional damage (for each weapon)
+* 56 xp for 1 additional strikes (for each weapon)
+ 
+You may locally change slider ranges without any out of sync problems.
+ 
+XP Modification is continuation of XP Era from wesnoth 1.10, based on work by Dovolente, itota and Nosmos."
+[feedback]
+    topic_id=39116
+[/feedback]
+[translation]
+    language="es"
+	title="XP Modification"
+    description="Este complemento proporciona un menú de clic derecho que permite gastar la experiencia de las unidades en mejoras. Los costos pueden modificarse durante la creación de la partida y, por defecto, son los siguientes:
+8 XP por 4 puntos de vida
+10 XP por 1 punto de movimiento (para el siguiente turno y todos los turnos posteriores)
+16 XP por 1 punto de daño adicional (para cada arma)
+56 XP por 1 ataque adicional (para cada arma)
+Puedes cambiar localmente los rangos de los deslizadores sin que se produzcan problemas de desincronización.
+XP Modification es la continuación de XP Era de Wesnoth 1.10, basada en el trabajo de Dovolente, itota y Nosmos."
+[/translation]
