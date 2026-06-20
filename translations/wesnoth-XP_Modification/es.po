@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-XP_Modification\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-06-17 21:26\n"
-"PO-Revision-Date: 2026-06-17 21:45-0300\n"
+"POT-Creation-Date: 2026-06-20 12:39\n"
+"PO-Revision-Date: 2026-06-20 12:55-0300\n"
 "Last-Translator: Sebastián Lecchini <sebas38760@gmail.com>\n"
 "Language-Team: es\n"
 "Language: es\n"
@@ -12,42 +12,42 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. [set_menu_item], id=xp_mod_a
-#: XP_Modification/macros/xp.cfg:45
+#: XP_Modification/macros/xp.cfg:42
 msgid "+$Rav_XP_hp_amount hp: $Rav_XP_hp_cost xp"
 msgstr "+$Rav_XP_hp_amount PV: $Rav_XP_hp_cost PX"
 
 #. [set_menu_item], id=xp_mod_b
-#: XP_Modification/macros/xp.cfg:50
+#: XP_Modification/macros/xp.cfg:47
 msgid "+$Rav_XP_hp_amount hp: $Rav_XP_hp_cost_drainer xp"
 msgstr "+$Rav_XP_hp_amount PV: $Rav_XP_hp_cost_drainer PX"
 
 #. [set_menu_item], id=xp_mod_c
-#: XP_Modification/macros/xp.cfg:55
+#: XP_Modification/macros/xp.cfg:52
 msgid "+$Rav_XP_move_amount movement: $Rav_XP_move_cost xp"
 msgstr "+$Rav_XP_move_amount movimiento: $Rav_XP_move_cost PX"
 
 #. [set_menu_item], id=xp_mod_d
-#: XP_Modification/macros/xp.cfg:60
+#: XP_Modification/macros/xp.cfg:57
 msgid "+$Rav_XP_move_amount movement: $Rav_XP_move_cost_drainer xp"
 msgstr "+$Rav_XP_move_amount movimiento: $Rav_XP_move_cost_drainer PX"
 
 #. [set_menu_item], id=xp_mod_e
-#: XP_Modification/macros/xp.cfg:65
+#: XP_Modification/macros/xp.cfg:62
 msgid "+$Rav_XP_damage_amount damage: $Rav_XP_damage_cost xp"
 msgstr "+$Rav_XP_damage_amount daño: $Rav_XP_damage_cost PX"
 
 #. [set_menu_item], id=xp_mod_f
-#: XP_Modification/macros/xp.cfg:70
+#: XP_Modification/macros/xp.cfg:67
 msgid "+$Rav_XP_damage_amount damage: $Rav_XP_damage_cost_drainer xp"
 msgstr "+$Rav_XP_damage_amount daño: $Rav_XP_damage_cost_drainer PX"
 
 #. [set_menu_item], id=xp_mod_g
-#: XP_Modification/macros/xp.cfg:75
+#: XP_Modification/macros/xp.cfg:72
 msgid "+$Rav_XP_strike_amount strike: $Rav_XP_strike_cost xp"
 msgstr "+$Rav_XP_strike_amount ataque: $Rav_XP_strike_cost PX"
 
 #. [set_menu_item], id=xp_mod_h
-#: XP_Modification/macros/xp.cfg:80
+#: XP_Modification/macros/xp.cfg:77
 msgid "+$Rav_XP_strike_amount strike: $Rav_XP_strike_cost_drainer xp"
 msgstr "+$Rav_XP_strike_amount ataque: $Rav_XP_strike_cost_drainer PX"
 
@@ -79,12 +79,12 @@ msgstr ""
 "Las unidades con la habilidad de drenaje tienen un coste de mejora más alto"
 
 #. [checkbox], id=Rav_XP_amla_only
-#: XP_Modification/mods/xp_mod.cfg:17
+#: XP_Modification/mods/xp_mod.cfg:17 XP_Modification/mods/xp_mod_beta.cfg:19
 msgid "AMLA only"
 msgstr "Solo tras máximo nivel"
 
 #. [checkbox], id=Rav_XP_amla_only
-#: XP_Modification/mods/xp_mod.cfg:18
+#: XP_Modification/mods/xp_mod.cfg:18 XP_Modification/mods/xp_mod_beta.cfg:20
 msgid "Allow upgrades only on units that reached their max level"
 msgstr "Permitir mejoras solo en unidades que han alcanzado su nivel máximo"
 
@@ -150,7 +150,7 @@ msgstr "PX requeridos para mejorar el movimiento"
 
 #. [slider], id=Rav_XP_damage_cost
 #. [slider], id=Rav_XP_damage_cost_beta
-#: XP_Modification/mods/xp_mod.cfg:68 XP_Modification/mods/xp_mod_beta.cfg:24
+#: XP_Modification/mods/xp_mod.cfg:68 XP_Modification/mods/xp_mod_beta.cfg:28
 msgid "DMG cost"
 msgstr "Coste de daño"
 
@@ -170,7 +170,7 @@ msgid "XP required to upgrade strikes"
 msgstr "PX requeridos para mejorar los ataques"
 
 #. [slider], id=Rav_XP_drainer_penalty
-#: XP_Modification/mods/xp_mod.cfg:86
+#: XP_Modification/mods/xp_mod.cfg:86 XP_Modification/mods/xp_mod_beta.cfg:37
 msgid "Drainer penalty %"
 msgstr "Penalización de drenadores %"
 
@@ -181,8 +181,8 @@ msgstr "Penalización de coste de PX para drenadores, en porcentaje"
 
 #. TRANSLATORS: Used to display a unit as "<unit name> the <unit type>". Example: "Tabryn the Marshal".
 #. [lua]
-#. [4]
-#: XP_Modification/mods/xp_mod.cfg:112 XP_Modification/mods/xp_mod_beta.cfg:211
+#. [5]
+#: XP_Modification/mods/xp_mod.cfg:112 XP_Modification/mods/xp_mod_beta.cfg:236
 msgid "%s the %s"
 msgstr "%s el %s"
 
@@ -191,61 +191,38 @@ msgstr "%s el %s"
 msgid "I spent %s xp for %s!"
 msgstr "¡Gasté %s PX por %s!"
 
-#. [chat]
-#: XP_Modification/mods/xp_mod.cfg:137
-msgid "XP Modification"
-msgstr "XP Mod"
-
-#. [chat]
-#: XP_Modification/mods/xp_mod.cfg:138
-msgid ""
-"WARNING\n"
-"\n"
-"Settings not found. Expected cause is bug #23512. Fix is enabling Advanced "
-"Settings->Level options in campaign menu.\n"
-"\n"
-"Default settings assumed."
-msgstr ""
-"ADVERTENCIA\n"
-"\n"
-"No se encontraron los ajustes. La causa probable es el error #23512. La "
-"solución es habilitar Ajustes avanzados->Opciones de nivel en el menú de la "
-"campaña.\n"
-"\n"
-"Se asumirán los ajustes predeterminados."
-
 #. [lua]
-#: XP_Modification/mods/xp_mod.cfg:217
+#: XP_Modification/mods/xp_mod.cfg:208
 msgid "Hitpoints cost: "
 msgstr "Costo de PV: "
 
 #. [lua]
-#: XP_Modification/mods/xp_mod.cfg:218
+#: XP_Modification/mods/xp_mod.cfg:209
 msgid "Movement cost: "
 msgstr "Costo de movimiento: "
 
 #. [lua]
-#: XP_Modification/mods/xp_mod.cfg:219
+#: XP_Modification/mods/xp_mod.cfg:210
 msgid "Damage cost: "
 msgstr "Costo del daño: "
 
 #. [lua]
-#: XP_Modification/mods/xp_mod.cfg:220
+#: XP_Modification/mods/xp_mod.cfg:211
 msgid "Strikes cost: "
 msgstr "Costo de ataques: "
 
 #. [lua]
-#: XP_Modification/mods/xp_mod.cfg:224
+#: XP_Modification/mods/xp_mod.cfg:215 XP_Modification/mods/xp_mod_beta.cfg:278
 msgid "AMLA only: yes"
 msgstr "Solo tras máximo nivel: sí"
 
 #. [lua]
-#: XP_Modification/mods/xp_mod.cfg:227
+#: XP_Modification/mods/xp_mod.cfg:218 XP_Modification/mods/xp_mod_beta.cfg:281
 msgid "AMLA only: no"
 msgstr "Solo tras máximo nivel: no"
 
 #. [lua]
-#: XP_Modification/mods/xp_mod.cfg:229 XP_Modification/mods/xp_mod_beta.cfg:252
+#: XP_Modification/mods/xp_mod.cfg:220 XP_Modification/mods/xp_mod_beta.cfg:283
 msgid "XP Mod version "
 msgstr "XP Mod versión "
 
@@ -262,16 +239,14 @@ msgid ""
 "aims to stay close to original damage per strike, but staying between 2 and "
 "5 damage per strike. May be enabled together with regular XP Mod, but "
 "disable strike and damage upgrades there then or amounts can be unexpected. "
-"Drain and amla-only logic is not fully implemented yet.\n"
+"Attacks with drain special upgrade slower than others.\n"
 "\n"
 "When base damage or strike is 1, then upgrade is allowed to reduce the other "
 "value by 25% to achieve more evenly distributed damage and strikes.\n"
 "\n"
-"When unit has multiple attacks with same name+type+range, upgrade takes "
-"lowest values from all of them. So 40-1 and 4-10 with same name are 4-1 for "
-"upgrade purpose.\n"
-"\n"
-"Attacks that are not from unit type might get upgraded, but not tested.\n"
+"When unit has multiple attacks with same name and damage type and range, "
+"upgrade takes lowest values from all of them. So 40-1 and 4-10 with same "
+"name are 4-1 for upgrade purpose.\n"
 "\n"
 "version "
 msgstr ""
@@ -280,51 +255,72 @@ msgstr ""
 "ser constante. La distribución intenta mantenerse cerca del daño original "
 "por golpe, pero dentro de un rango de entre 2 y 5 de daño por golpe. Puede "
 "activarse junto con el XP Mod normal, pero entonces desactiva allí las "
-"mejoras de golpes y daño o los valores podrían resultar inesperados. La "
-"lógica de drenaje y de solo AMLA aún no está implementada por completo.\n"
+"mejoras de golpes y daño o los valores podrían resultar inesperados. Los "
+"ataques con drenaje mejoran más lentamente que los demás.\n"
 "\n"
 "Cuando el daño base o la cantidad de golpes es 1, la mejora puede reducir el "
 "otro valor en un 25% para lograr una distribución más equilibrada entre daño "
 "y golpes.\n"
 "\n"
-"Cuando una unidad tiene varios ataques con el mismo nombre+tipo+alcance, la "
-"mejora toma los valores más bajos de todos ellos. Así, 40-1 y 4-10 con el "
-"mismo nombre se consideran 4-1 para fines de mejora.\n"
-"\n"
-"Los ataques que no provienen del tipo de unidad podrían mejorarse, pero no "
-"han sido probados.\n"
+"Cuando una unidad tiene varios ataques con el mismo nombre, tipo de daño y "
+"alcance, la mejora toma los valores más bajos de todos ellos. Así, 40-1 y "
+"4-10 con el mismo nombre se consideran 4-1 para fines de mejora.\n"
 "\n"
 "versión "
 
 #. [modification], id=Rav_XP_Mod_Beta
-#: XP_Modification/mods/xp_mod_beta.cfg:14
+#: XP_Modification/mods/xp_mod_beta.cfg:12
 msgid " by Ravana"
 msgstr " por Ravana"
 
 #. [slider], id=Rav_XP_damage_cost_beta
-#: XP_Modification/mods/xp_mod_beta.cfg:25
+#: XP_Modification/mods/xp_mod_beta.cfg:29
 msgid "XP required to upgrade total power"
 msgstr "PX requeridos para mejorar el poder total"
 
-#. [4]
-#: XP_Modification/mods/xp_mod_beta.cfg:204
+#. [slider], id=Rav_XP_drainer_penalty
+#: XP_Modification/mods/xp_mod_beta.cfg:38
+msgid "How much weaker each upgrade is for attacks with drain"
+msgstr "Cuánto más débil es cada mejora para los ataques con drenaje"
+
+#. [5]
+#: XP_Modification/mods/xp_mod_beta.cfg:228
 msgid "Power modifer: +"
 msgstr "Modificador de poder: +"
 
-#. [4]
-#: XP_Modification/mods/xp_mod_beta.cfg:212
+#. [5]
+#: XP_Modification/mods/xp_mod_beta.cfg:237
 msgid "I spent %s xp and now have %s!"
 msgstr "¡Gasté %s PX y ahora tengo %s!"
 
 #. [set_menu_item], id=xp_mod_exp_power
-#: XP_Modification/mods/xp_mod_beta.cfg:230
+#: XP_Modification/mods/xp_mod_beta.cfg:253
 msgid "+$Rav_XP_damage_percent|% base damage: $Rav_XP_damage_cost_beta xp"
 msgstr "+$Rav_XP_damage_percent|% daño base: $Rav_XP_damage_cost_beta PX"
 
 #. [lua]
-#: XP_Modification/mods/xp_mod_beta.cfg:250
+#: XP_Modification/mods/xp_mod_beta.cfg:273
 msgid "Power cost: "
 msgstr "Costo de energía: "
+
+#~ msgid "XP Modification"
+#~ msgstr "XP Mod"
+
+#~ msgid ""
+#~ "WARNING\n"
+#~ "\n"
+#~ "Settings not found. Expected cause is bug #23512. Fix is enabling "
+#~ "Advanced Settings->Level options in campaign menu.\n"
+#~ "\n"
+#~ "Default settings assumed."
+#~ msgstr ""
+#~ "ADVERTENCIA\n"
+#~ "\n"
+#~ "No se encontraron los ajustes. La causa probable es el error #23512. La "
+#~ "solución es habilitar Ajustes avanzados->Opciones de nivel en el menú de "
+#~ "la campaña.\n"
+#~ "\n"
+#~ "Se asumirán los ajustes predeterminados."
 
 #~ msgid "XP Mod version 2.4.3 (beta)"
 #~ msgstr "XP Mod version 2.4.3 (beta)"
