@@ -285,7 +285,7 @@ msgstr "Cuánto más débil es cada mejora para los ataques con drenaje"
 
 #. [5]
 #: XP_Modification/mods/xp_mod_beta.cfg:228
-msgid "Power modifer: +"
+msgid "Power modifier: +"
 msgstr "Modificador de poder: +"
 
 #. [5]
